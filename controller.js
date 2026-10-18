@@ -38,6 +38,7 @@
   const t = text => current.lang === 'zh' ? (dictionary[text] || text) : text;
   function translate() {
     originals.forEach(({node,original,key}) => { node.nodeValue = current.lang === 'en' ? original : original.replace(/\S[\s\S]*\S|\S/,dictionary[key]); });
+    $('.profile h1').textContent = current.lang === 'zh' ? '李云峰' : 'Yunfeng Li';
     attributes.forEach(({el,value}) => el.setAttribute('aria-label',t(value)));
     document.documentElement.lang = current.lang === 'zh' ? 'zh-CN' : 'en';
     document.title = current.lang === 'zh' ? `Yunfeng Li · ${current.view === 'life' ? '生活随记' : '个人主页'}` : `Yunfeng Li · ${current.view === 'life' ? 'Life' : 'Personal Homepage'}`;
@@ -57,7 +58,7 @@
       const link = document.createElement('a'); link.href = `#${id}`; link.textContent = t(label); nav.append(link);
     });
     if (current.view === 'academic') {
-      const link = document.createElement('a'); link.href='assets/Yunfeng-Li-CV.docx'; link.download=''; link.className='nav-cv'; link.textContent=t('CV ↗'); nav.append(link);
+      const link = document.createElement('a'); link.href='assets/Yunfeng-Li-CV.pdf'; link.download=''; link.className='nav-cv'; link.textContent=t('CV ↗'); nav.append(link);
     }
     $('#nav-context').textContent = t(current.view === 'academic' ? 'Circuits & systems' : 'Notes from everyday life');
     closeMenu();
