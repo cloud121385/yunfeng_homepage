@@ -72,9 +72,9 @@ Object.assign(window.HOMEPAGE_ZH, {
   'Device-Level Characterization of Back-Gate-Tunable Zero-Change MOSFETs for AI-Oriented Silicon Photonics':'面向 AI 硅光子的背栅可调零变化 MOSFET 器件级表征'
 });
 Object.assign(window.HOMEPAGE_ZH, {
-  'CIOP 2026 · Accepted':'CIOP 2026 · 已接收',
-  'IEEE publication review in progress':'IEEE 出版审核中',
-  'A research output from the SRTP optoelectronic integration project, prepared for CIOP 2026 in collaboration with IEEE. The official IEEE decision is expected in mid-November 2026.':'本成果来自 SRTP 光电融合项目，面向与 IEEE 合作举办的 CIOP 2026。IEEE 官方结果预计于 2026 年 11 月中旬公布。',
+  'CIOP 2026 · IEEE':'CIOP 2026 · IEEE',
+  'Acceptance confirmed · 12 Nov 2026':'接收已确认 · 2026 年 11 月 12 日',
+  'This paper from the SRTP optoelectronic integration project has been accepted for presentation at CIOP 2026. Following registration and presentation, it will be published by IEEE and included in IEEE Xplore.':'本论文来自 SRTP 光电融合项目，已获 CIOP 2026 接收并将作会议报告。完成注册和报告后，论文将由 IEEE 出版并收录于 IEEE Xplore。',
   'CIOP 2026 and IEEE logos':'CIOP 2026 与 IEEE 标识',
   'Peking University and NanoCoreChip identifiers':'北京大学与 NanoCoreChip 标识',
   'Peking University emblem':'北京大学校徽',
@@ -85,4 +85,8 @@ Object.assign(window.HOMEPAGE_ZH, {
   'Selected Projects':'精选项目',
   'High-Performance GEMM Accelerator Based on Systolic Array':'基于脉动阵列的高性能 GEMM 加速器',
   'Monolithic Optoelectronic Chip Based on 12-inch CMOS Silicon Photonics':'基于 12 英寸 CMOS 硅光平台的单片光电芯片'
+});
+
+Object.assign(window.HOMEPAGE_ZH, {
+  'Acceptance letter ↗':'接收通知 ↗'
 });

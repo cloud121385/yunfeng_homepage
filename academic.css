@@ -90,3 +90,6 @@ main{min-width:0}section{margin:0 0 38px}.section-heading{display:flex;align-ite
 /* Keep the email labels aligned with the sidebar's body text. */
 .email-links a{font-size:14px;line-height:1.5}
 .email-links a strong{font-size:14px}
+
+/* Publication documents align side by side and wrap on narrow screens. */
+.publication-links{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 22px}
